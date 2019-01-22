@@ -1,0 +1,49 @@
+{
+  "name": "MyFrontEndDevStack",
+  "version": "1.0.0",
+  "description": "A boilerplate for web projects utilizing Gulp and SASS",
+  "author": "George Bratsos <geobratsos@gmail.com> (https://github.com/gbratsos)",
+  "homepage": "https://github.com/GBratsos/FrontEndStack",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GBratsos/FrontEndStack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GBratsos/FrontEndStack/issues"
+  },
+  "keywords": [
+    "Gulp",
+    "Compass",
+    "Boilerplate"
+  ],
+  "scripts": {
+    "watch": "gulp watch",
+    "assets": "gulp copy_assets",
+    "minify": "gulp min"
+  },
+  "dependencies": {
+    "foundation-sites": "^6.5.1",
+    "jquery": "^3.3.1",
+    "motion-ui": "^2.0.3",
+    "what-input": "^5.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-inline-source": "^3.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "js-yaml": "^3.12.0",
+    "panini": "^1.6.3",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.26.0",
+    "webpack-stream": "^5.1.1"
+  }
+}
